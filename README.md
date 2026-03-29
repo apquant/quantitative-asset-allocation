@@ -63,7 +63,7 @@ $$\Omega_{ii} = \left(\frac{1}{c_i} - 1\right) \cdot p_i^\top (\tau \Sigma) p_i$
 $$\mu_{BL} = \left[(\tau\Sigma)^{-1} + P^\top \Omega^{-1} P\right]^{-1}
              \left[(\tau\Sigma)^{-1} \pi + P^\top \Omega^{-1} Q\right]$$
 
-### 3. Efficient Frontier — Three Constraint Regimes
+### 3. Efficient Frontier - Three Constraint Regimes
 
 | Regime | Description | Key observation |
 |--------|-------------|-----------------|
