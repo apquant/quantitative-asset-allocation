@@ -1,8 +1,4 @@
-# Strategic Asset Allocation — Black-Litterman Model
-
-**Course:** Quantitative Asset Allocation — Collegio Carlo Alberto, Turin  
-**Author:** Prola Andrea  
-**Date:** May 2024
+# Strategic Asset Allocation - Black-Litterman Model
 
 ---
 
@@ -28,7 +24,7 @@ better-diversified portfolios.
 | **Equities** | 4 | MSCI USA, MSCI Europe, MSCI Pacific, MSCI Emerging Markets |
 | **Opportunities** | 4 | Bloomberg Commodity, MSCI Europe Energy, MSCI World Biotech, MSCI India |
 
-Monthly total return data — source: Bloomberg / MSCI.
+Monthly total return data - source: Bloomberg / MSCI.
 
 ---
 
@@ -41,7 +37,7 @@ maximum drawdown, and historical VaR.
 
 Key finding: the three asset classes show clearly distinct risk-return profiles.
 Bonds offer low, stable returns; Equities provide higher returns at higher volatility;
-Opportunities carry the highest risk (vol up to 24%) but also the highest potential upside —
+Opportunities carry the highest risk (vol up to 24%) but also the highest potential upside -
 notably MSCI India (+14.6% annualised) and MSCI World Biotech (+14.6%).
 
 ### 2. Black-Litterman Model
@@ -89,21 +85,9 @@ they are the mechanism that makes BL portfolios practically investable**.
 | VaR (5%) | -3.37% | -7.05% |
 
 While MSCI World delivers higher raw returns, the BL portfolio achieves superior
-**risk-adjusted performance** — nearly double the Sharpe ratio — with significantly
+**risk-adjusted performance** - nearly double the Sharpe ratio - with significantly
 lower drawdowns and VaR. This is consistent with the model's design goal: not to
 maximise return, but to optimise the return-to-risk trade-off.
-
----
-
-## Repository Structure
-
-```
-black-litterman-saa/
-├── black_litterman_saa.py   # Full analysis pipeline
-├── database.xlsx            # Monthly index prices (not tracked — see Data section)
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -130,11 +114,3 @@ The script is also structured to run cell-by-cell in Spyder or VS Code
 
 ---
 
-## Tools
-
-| Library | Purpose |
-|---------|---------|
-| Python 3.10+ | — |
-| NumPy / Pandas | Numerical computing, data handling |
-| SciPy (`optimize`) | Mean-variance optimisation (SLSQP) |
-| Matplotlib / Seaborn | Visualisation, heatmaps |
