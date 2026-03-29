@@ -11,7 +11,7 @@ views, and constructs the efficient frontier under three progressive constraint 
 
 The key distinction from standard mean-variance optimisation is the **treatment of uncertainty**:
 rather than using raw historical means (which are notoriously noisy inputs), the BL model
-shrinks expected returns toward a market equilibrium baseline — producing more stable,
+shrinks expected returns toward a market equilibrium baseline - producing more stable,
 better-diversified portfolios.
 
 ---
