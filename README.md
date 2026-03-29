@@ -71,7 +71,7 @@ $$\mu_{BL} = \left[(\tau\Sigma)^{-1} + P^\top \Omega^{-1} P\right]^{-1}
 | **Absolute constraints** | Per-asset min/max weight bounds | More diversified; frontier shifts right (higher min volatility) |
 | **Infra-group constraints** | Relative bounds *within* each asset class + macro exposure caps | Best diversification across and within classes |
 
-The progression illustrates a core insight: **constraints are not just compliance tools —
+The progression illustrates a core insight: **constraints are not just compliance tools -
 they are the mechanism that makes BL portfolios practically investable**.
 
 ### 4. Benchmarking vs MSCI World
